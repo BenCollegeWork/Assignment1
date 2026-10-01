@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 export default function Layout() {
     return (
         <div>
-            <img src="../src/assets/Custom_Logo.png" alt="Logo" width="170" height="100" />
-            <h1>Benjamin Oliveria's Portfolio</h1>
-
+            <div className="banner">
+                <img src="../src/assets/Custom_Logo.png" alt="Logo" width="170" height="100" />
+                <h1>Benjamin Oliveria's Portfolio</h1>
+            </div>
             <hr />
-            <nav>
+            <nav className="navigationBar">
                 <Link to="/">Home</Link> |
                 <Link to="/about"> About</Link> |
                 <Link to="/education"> Education</Link> |
