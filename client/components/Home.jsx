@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import { Navigate } from 'react-router-dom';
 
+{/* This is the default home page where users can directly access other pages through the navigation bar */}
 export default function Home() {
-    const [leavePage, setLeavePage] = useState(false);
     
+    {/* When the user clicks the button, they will be navigated to the about page */}
+    const [leavePage, setLeavePage] = useState(false);
     const handleLeavePage = () => {
         setLeavePage(true);
     }
@@ -11,6 +13,7 @@ export default function Home() {
         return <Navigate to="/about" replace />;
     }
 
+    {/* The home page contains a welcome message and a button to navigate directly to the about page */}
     return ( 
         <>  
             <h1>Welcome!</h1>

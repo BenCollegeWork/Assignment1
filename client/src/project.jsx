@@ -1,8 +1,10 @@
+{/* This is the project page where users can view my projects */}
 export default function Project() {
     return (
         <div>
             <h1>My Projects</h1>
 
+            {/* Every project here contains a title, an image or PDF, and a list of bullet points describing the project and my role in it. */}
             <div className="project">
                 <h2>Project #1 - Video Game Review Website</h2>
                 <img src="./src/assets/ProjectImage.png" alt="Project 1 Image" width="600" height="300"/>

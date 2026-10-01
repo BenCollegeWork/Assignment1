@@ -1,8 +1,16 @@
+html {
+  background-color: rgb(55, 53, 75);
+}
+
 body {
+  background-color: rgb(220, 219, 219);
   margin-left: 15vw;
   margin-right: 15vw;
-  margin-top: 4vh;
   font-family: 'Playfair Display', Garamond, serif;
+  margin-top: 40px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 6px;
 }
 
 p, .project, .education {
@@ -88,7 +96,7 @@ button {
 }
 
 .aboutMe {
-  margin-top: 70px;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;

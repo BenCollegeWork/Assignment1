@@ -8,6 +8,7 @@ import Project from './src/project'
 import Services from './src/services'
 import Layout from './components/Layout'
 
+{/* This is the main router for the entire application. It contains the routes for all the pages in the application */}
 const MainRouter = () => {
     return (
         <div>

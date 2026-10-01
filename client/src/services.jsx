@@ -1,23 +1,27 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
 
+{/* This is the services page where users can view the services I offer */}
 export default function Services() {
+    {/* When the user clicks the "Click this box to contact me!" box, they will be navigated to the contact page */}
     const [contactMe, setContactMe] = useState(false);
-
     const handleContactMe = () => {
         setContactMe(true);
     }
     if (contactMe) {
         return <Navigate to="/contact" replace />;
     }
+
+    {/* Display of the services I offer. Each service is represented by a box containing a title and an image. The last box is clickable
+        and will navigate the user to the contact page when clicked. */}
     return (
         <div>
             <h1>Services</h1>
-            <p>I offer a range of services to help you achieve your goals.</p>
+            <p style={{ textAlign: 'center' }}>I offer a range of services to help you achieve your goals.</p>
 
             <div className="servicesContainer">
                 <div className="service">
-                    <h4>General Programming</h4>
+                    <h4>General Programming: Python, Java, C#</h4>
                     <img src="./src/assets/programming_img.avif"></img>
                 </div>
 

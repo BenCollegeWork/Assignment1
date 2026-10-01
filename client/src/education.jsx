@@ -1,3 +1,4 @@
+{/* This is the education page where users can view my educational background */}
 export default function Education() {
     return (
         <div>
