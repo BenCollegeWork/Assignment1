@@ -9,8 +9,8 @@ export default function About() {
             <div className="aboutMe">
                 {/* My profile picture is a clickable link that opens my resume in a new tab */}
                 <div className="portrait">
-                    <a href="../src/assets/Resume_BenjaminOliveria.pdf" target="_blank" rel="noopener noreferrer">
-                        <img src="../src/assets/PFP.jpg" alt="Profile Picture" width="192" height="255"/>
+                    <a href="/Resume_BenjaminOliveria.pdf" target="_blank" rel="noopener noreferrer">
+                        <img src="/PFP.jpg" alt="Profile Picture" width="192" height="255"/>
                     </a>
                 </div>
                 

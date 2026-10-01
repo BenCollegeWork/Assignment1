@@ -22,32 +22,32 @@ export default function Services() {
             <div className="servicesContainer">
                 <div className="service">
                     <h4>General Programming: Python, Java, C#</h4>
-                    <img src="./src/assets/programming_img.avif"></img>
+                    <img src="/programming_img.avif"></img>
                 </div>
 
                 <div className="service">
                     <h4>Web Development</h4>
-                    <img src="./src/assets/web_dev_image.jpg"></img>
+                    <img src="/web_dev_image.jpg"></img>
                 </div>
 
                 <div className="service">
                     <h4>Databases</h4>
-                    <img src="./src/assets/database_service.webp"></img>
+                    <img src="/database_service.webp"></img>
                 </div>
 
                 <div className="service">
                     <h4>Software Development</h4>
-                    <img src="./src/assets/software_dev.jpg"></img>
+                    <img src="/software_dev.jpg"></img>
                 </div>
 
                 <div className="service">
                     <h4>Game Development</h4>
-                    <img src="./src/assets/game_image.png"></img>
+                    <img src="/game_image.png"></img>
                 </div>
 
                 <div className="service" onClick={handleContactMe}>
                     <h4>Click this box to contact me!</h4>
-                    <img src="./src/assets/contact_image.jpg"></img>
+                    <img src="/contact_image.jpg"></img>
                 </div>
             </div>
         </div>

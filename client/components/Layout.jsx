@@ -7,7 +7,7 @@ export default function Layout() {
         <div>
             {/* Banner containing the custom logo and the title of the portfolio */}
             <div className="banner">
-                <img src="../src/assets/Custom_Logo.png" alt="Logo" width="170" height="100" />
+                <img src="/Custom_Logo.png" alt="Logo" width="170" height="100" />
                 <h1>Benjamin Oliveria's Portfolio</h1>
             </div>
 

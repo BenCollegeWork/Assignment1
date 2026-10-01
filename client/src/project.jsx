@@ -7,7 +7,7 @@ export default function Project() {
             {/* Every project here contains a title, an image or PDF, and a list of bullet points describing the project and my role in it. */}
             <div className="project">
                 <h2>Project #1 - Video Game Review Website</h2>
-                <img src="./src/assets/ProjectImage.png" alt="Project 1 Image" width="600" height="300"/>
+                <img src="/ProjectImage.png" alt="Project 1 Image" width="600" height="300"/>
                 <ul>
                     <li> 
                         Led an academic project through the full software development lifecycle using Agile Scrum practices, 
@@ -30,7 +30,7 @@ export default function Project() {
                 
             <div className="project">
                 <h2>Project #2 - MatchMyHome Software Requirements Specification (SRS) Document</h2>
-                <object data="./src/assets/COMP225_Group2_SRS_FINAL.pdf" type="application/pdf" width="600" height="400">
+                <object data="/COMP225_Group2_SRS_FINAL.pdf" type="application/pdf" width="600" height="400">
                 </object>
                 <ul>
                     <li>
@@ -45,7 +45,7 @@ export default function Project() {
 
             <div className="project">
                 <h2>Project #3 - Car Rental Management System</h2>
-                <object data="./src/assets/Car_Rental_Management.pdf" type="application/pdf" width="600" height="400">
+                <object data="/Car_Rental_Management.pdf" type="application/pdf" width="600" height="400">
                 </object>
                 <ul>
                     <li>
